@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: rgb(221, 231, 165);
+font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+  margin-left: 610px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  gap: 15px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 80px;
+  color:rgb(0, 0, 0);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #8f7c6f;
+  border-radius: 5px;
+}
+
+header {
+  height: 70px;
+  background-color: purple;
+}
+ h1 {
+  padding-top: 15px;
+  color: pink;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ }
+
+.open {
+  transition: all 1s;
+  background:none;
+}
